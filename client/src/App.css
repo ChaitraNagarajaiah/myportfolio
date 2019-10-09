@@ -60,6 +60,7 @@
 }
 .projects-grid {
   display: inline;
+  background: white;
 }
 .paragraph {
   height: 200px;
@@ -72,4 +73,9 @@
   border: 2px solid red;
   margin-bottom: 20px;
   margin-top: 20px;
+  background: white;
+}
+.videoTag {
+  height: 200%;
+  position: absolute;
 }

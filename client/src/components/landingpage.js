@@ -38,6 +38,9 @@ class Landing extends Component {
             </div>
           </div>
         </Grid>
+        {/* <video className="videoTag" autoPlay loop muted>
+          <source src="/Bee.mp4" type="video/mp4" />
+        </video> */}
       </div>
     );
   }

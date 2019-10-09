@@ -3,7 +3,6 @@ import "./App.css";
 import { Layout, Navigation, Content, Header } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
-import { Bee } from "./Bee.mp4";
 
 // this.state = {
 //   videoURL: "/Bee.mp4"
@@ -36,17 +35,9 @@ function App() {
           <div className="page-content" />
           <Main />
         </Content>
-        {/* <video autoPlay muted loop id="myVideo">
-          <source
-            src="../videos/Organic_Lines_4K_Motion_Background_Loop.mp4"
-            type="video/mp4"
-          />
-        </video> */}
-        {/* <video id="background-video" loop autoPlay>
-          <source src={this.state.videoURL} type="video/mp4" />
-        </video> */}
+
         <video className="videoTag" autoPlay loop muted>
-          <source src={Bee} type="video/mp4" />
+          <source src="/Bee.mp4" type="video/mp4" />
         </video>
       </Layout>
     </div>

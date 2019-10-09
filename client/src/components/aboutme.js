@@ -9,14 +9,20 @@ class AboutMe extends Component {
           <img
             src="/chaitra-img.jpg"
             alt="chaitra"
-            style={{ height: "250px", margin: "auto", paddingTop: "1em" }}
+            style={{
+              height: "250px",
+              margin: "auto",
+              paddingTop: "1em",
+              paddingBottom: "2em"
+            }}
           />
           <p
             style={{
               width: "75%",
               margin: "auto",
               paddingTop: "2em",
-              color: "black"
+              color: "black",
+              background: "white"
             }}
           >
             {" "}
