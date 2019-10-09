@@ -29,7 +29,7 @@ class AboutMe extends Component {
             >
               Chaitra Nagarajaiah
             </h4>
-            Hello, I'am Chaitra from Bangalore, India. I persuded my degree in
+            Hello, I'am Chaitra from Atlanta. I persuded my degree in
             Engineering in Visveswaraya Technological University in India.
             Currently I have completed Full Stack development course from
             Georgia Tech, Atlanta. My hobbies are painting, drawing, cooking and
