@@ -31,6 +31,12 @@ function App() {
           <div className="page-content" />
           <Main />
         </Content>
+        <Video autoPlay muted loop id="myVideo">
+          <Source
+            src="../videos/Organic_Lines_4K_Motion_Background_Loop.mp4"
+            type="video/mp4"
+          />
+        </Video>
       </Layout>
     </div>
   );
