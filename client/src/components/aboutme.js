@@ -7,7 +7,7 @@ class AboutMe extends Component {
       <div>
         <Grid>
           <img
-            src="/chaitra-img.jpg"
+            src="/Profile.png"
             alt="chaitra"
             style={{
               height: "250px",
@@ -18,18 +18,20 @@ class AboutMe extends Component {
           />
           <p
             style={{
-              width: "75%",
+              width: "auto",
               margin: "auto",
               paddingTop: "2em",
               color: "black",
-              background: "white"
+              background: "white",
+              opacity: "0.7",
+              fontWeight: "bolder"
             }}
           >
             {" "}
             <h4
               style={{
                 margin: "auto",
-                paddingLeft: "350px",
+                paddingLeft: "530px",
                 fontWeight: "bold"
               }}
             >

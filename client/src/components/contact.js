@@ -8,11 +8,7 @@ class Contacts extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Chaitra Nagarajaiah</h2>
-            <img
-              src="/chaitra-img.jpg"
-              alt="chaitra"
-              style={{ height: "250px" }}
-            />
+            <img src="/Profile.png" alt="chaitra" style={{ height: "250px" }} />
             <p
               style={{
                 width: "75%",
@@ -37,7 +33,7 @@ class Contacts extends Component {
             <hr></hr>
             <List>
               <ListItem>
-                <h4>Email-Id : </h4>
+                <h4>Email : </h4>
                 <h5 style={{ fontWeight: "lighter" }}>
                   chaitranagaraj1592@gmail.com
                 </h5>
@@ -45,6 +41,12 @@ class Contacts extends Component {
               <ListItem>
                 <h4>Phone-no : </h4>
                 <h5 style={{ fontWeight: "lighter" }}> 513-501-3253</h5>
+              </ListItem>
+              <ListItem>
+                <h4>LinkedIn: </h4>
+                <h5 style={{ fontWeight: "lighter" }}>
+                  https://www.linkedin.com/in/chaitra-nagarajaiah
+                </h5>
               </ListItem>
             </List>
           </Cell>

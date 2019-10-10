@@ -15,19 +15,45 @@ function App() {
         <Header
           className="header-color"
           title={
-            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            <Link
+              style={{
+                textDecoration: "none",
+                color: "white",
+                fontWeight: "bold"
+              }}
+              to="/"
+            >
               MyPortfolio
             </Link>
           }
           scroll
         >
           <Navigation>
-            <Link to="/Chaitra FullStack Developer.pdf " target="_blank">
+            <Link
+              to="/Chaitra FullStack Developer.pdf "
+              target="_blank"
+              style={{ fontWeight: "bolder", color: "white", fontSize: "20px" }}
+            >
               Resume
             </Link>
-            <Link to="/aboutme">AboutMe</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <Link
+              to="/aboutme"
+              style={{ fontWeight: "bolder", color: "white", fontSize: "20px" }}
+            >
+              AboutMe
+            </Link>
+            <Link
+              to="/projects"
+              style={{ fontWeight: "bolder", color: "white", fontSize: "20px" }}
+            >
+              Projects
+            </Link>
+            <Link
+              to="/contact"
+              style={{ fontWeight: "bolder", color: "white", fontSize: "20px" }}
+            >
+              Contact
+            </Link>
           </Navigation>
         </Header>
 
@@ -37,7 +63,7 @@ function App() {
         </Content>
 
         <video className="videoTag" autoPlay loop muted>
-          <source src="/Bee.mp4" type="video/mp4" />
+          <source src="/clearwater.mp4" type="video/mp4" />
         </video>
       </Layout>
     </div>
