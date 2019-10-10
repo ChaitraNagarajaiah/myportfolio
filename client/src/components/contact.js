@@ -5,7 +5,10 @@ class Contacts extends Component {
   render() {
     return (
       <div className="contact">
-        <Grid className="contact-grid">
+        <Grid
+          className="contact-grid"
+          style={{ borderRadius: "30px", opacity: "0.9" }}
+        >
           <Cell col={6}>
             <h2>Chaitra Nagarajaiah</h2>
             <img src="/Profile.png" alt="chaitra" style={{ height: "250px" }} />

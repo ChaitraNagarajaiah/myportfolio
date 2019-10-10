@@ -7,7 +7,16 @@ class Landing extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="/Profile.png" alt="chaitra" className="chaitraImg" />
+            <img
+              src="/Profile.png"
+              alt="chaitra"
+              className="chaitraImg"
+              style={
+                {
+                  // boxShadow: " 5px 5px 5px ",
+                }
+              }
+            />
           </Cell>
           <div className="heading">
             <h2>Full Stack Developer</h2>
